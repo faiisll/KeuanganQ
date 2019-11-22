@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nov"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="170dp"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_keyboard_arrow_down_primary_24dp"
+            android:layout_marginTop="15dp"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/print"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="130dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="50dp">
+        <Button
+            android:layout_width="110dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="20dp"
+            android:text="Pemasukan"
+            android:textSize="12dp"
+            android:layout_weight="1"
+            android:background="@drawable/roundedgreen"
+            android:textColor="@android:color/white"
+            style="@style/Widget.AppCompat.Button.Borderless"/>
+        <Button
+            android:layout_width="110dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="14dp"
+            android:text="Pengeluaran"
+            android:textSize="12dp"
+            android:layout_weight="1"
+            android:background="@drawable/roundedred"
+            android:textColor="@android:color/white"
+            style="@style/Widget.AppCompat.Button.Borderless"/>
+        <Button
+            android:layout_width="110dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="14dp"
+            android:text="Saldo"
+            android:textSize="12dp"
+            android:layout_weight="1"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/roundedprimary"
+            android:textColor="@android:color/white"
+            style="@style/Widget.AppCompat.Button.Borderless"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gaji"
+            android:textSize="18dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="7.000.000"
+            android:layout_weight="1"
+            android:textSize="18dp"
+            android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Belanja Bulanan"
+            android:textSize="18dp"
+            android:layout_marginLeft="25dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-2.000.000"
+            android:layout_weight="1"
+            android:textSize="18dp"
+            android:layout_marginLeft="150dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Projek Web"
+
+            android:textSize="18dp"
+            android:layout_marginLeft="25dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1.000.000"
+            android:layout_weight="1"
+            android:textSize="18dp"
+            android:layout_marginLeft="190dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Beli Hp"
+
+            android:textSize="18dp"
+            android:layout_marginLeft="25dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-1.800.000"
+            android:layout_weight="1"
+            android:textSize="18dp"
+            android:layout_marginLeft="215dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nonton Bioskop"
+
+            android:textSize="18dp"
+            android:layout_marginLeft="25dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="7.000.000"
+            android:layout_weight="1"
+            android:textSize="18dp"
+            android:layout_marginLeft="150dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Beli Popcorn"
+
+            android:textSize="18dp"
+            android:layout_marginLeft="25dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-150.000"
+            android:layout_weight="1"
+            android:textSize="18dp"
+            android:layout_marginLeft="185dp"/>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="30dp"
+        android:text="Tambah"
+        android:background="@drawable/roundedprimary"
+        android:textColor="@android:color/white"
+        style="@style/Widget.AppCompat.Button.Borderless"/>
+
+</LinearLayout>
